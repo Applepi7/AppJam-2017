@@ -1,9 +1,9 @@
-﻿Log file open, 08/12/17 16:21:57
+﻿Log file open, 08/12/17 23:51:46
 LogInit:Display: Running engine for game: AppJam
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1931943606) SRandInit(-1931943606).
+LogInit:Display: RandInit(1978851965) SRandInit(1978851965).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.134515
+LogStats: Stats thread started at 0.096423
 LogPluginManager: Loaded Plugin Paper2D, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -138,326 +138,119 @@ LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.14
-LogInit: Command line:  /Temp/Autosaves/Game/SideScrollerBP/Maps/UEDPCSideScrollerExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches -windowed 
+LogInit: Command line:  /Temp/Autosaves/Game/SideScrollerBP/Maps/UEDPCSideScrollerExampleMap -game -PIEVIACONSOLE -ResX=1080 -ResY=1920  -Multiprocess -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches -windowed 
 LogInit: Base directory: D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.12-07.21.58:272][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.12-07.21.58:272][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.12-07.21.58:350][  0]LogInit: Computer: DESKTOP-6JOGDQL
-[2017.08.12-07.21.58:350][  0]LogInit: User: JWOH
-[2017.08.12-07.21.58:350][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.08.12-07.21.58:350][  0]LogInit: High frequency timer resolution =2.531255 MHz
-[2017.08.12-07.21.58:350][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.08.12-07.21.58:357][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.12-07.21.58:357][  0]LogMemory: Process Physical Memory: 264.48 MB used, 264.48 MB peak
-[2017.08.12-07.21.58:357][  0]LogMemory: Process Virtual Memory: 262.54 MB used, 262.54 MB peak
-[2017.08.12-07.21.58:357][  0]LogMemory: Physical Memory: 5770.66 MB used,  2285.00 MB free, 8055.66 MB total
-[2017.08.12-07.21.58:357][  0]LogMemory: Virtual Memory: 676.73 MB used,  2285.00 MB free, 134217728.00 MB total
-[2017.08.12-07.21.59:298][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
-[2017.08.12-07.21.59:472][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+[2017.08.12-14.51.46:847][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.12-14.51.46:847][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.12-14.51.46:852][  0]LogInit: Computer: DESKTOP-6JOGDQL
+[2017.08.12-14.51.46:852][  0]LogInit: User: JWOH
+[2017.08.12-14.51.46:852][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.08.12-14.51.46:852][  0]LogInit: High frequency timer resolution =2.531255 MHz
+[2017.08.12-14.51.46:852][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.12-14.51.46:852][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.12-14.51.46:852][  0]LogMemory: Process Physical Memory: 265.36 MB used, 265.36 MB peak
+[2017.08.12-14.51.46:852][  0]LogMemory: Process Virtual Memory: 262.59 MB used, 262.59 MB peak
+[2017.08.12-14.51.46:852][  0]LogMemory: Physical Memory: 5856.93 MB used,  2198.72 MB free, 8055.66 MB total
+[2017.08.12-14.51.46:852][  0]LogMemory: Virtual Memory: 676.73 MB used,  2198.72 MB free, 134217728.00 MB total
+[2017.08.12-14.51.46:908][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.08.12-14.51.46:957][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
 Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
 Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
-[2017.08.12-07.21.59:473][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+[2017.08.12-14.51.46:957][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
 Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
 Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
-[2017.08.12-07.21.59:473][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+[2017.08.12-14.51.46:957][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
 Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
  )
 Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
  )
-[2017.08.12-07.21.59:473][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+[2017.08.12-14.51.46:957][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
 Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
 Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
-[2017.08.12-07.22.00:225][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.12-07.22.00:271][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2017.08.12-07.22.00:271][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.08.12-07.22.00:284][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2017.08.12-07.22.00:284][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.08.12-07.22.00:287][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.12-07.22.00:287][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.12-07.22.00:287][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.12-07.22.00:294][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.12-07.22.00:294][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2017.08.12-07.22.00:294][  0]LogWindows: EnumDisplayDevices:
-[2017.08.12-07.22.00:294][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2017.08.12-07.22.00:295][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.08.12-07.22.00:296][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.08.12-07.22.00:297][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.08.12-07.22.00:297][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2017.08.12-07.22.00:297][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.08.12-07.22.00:297][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.08.12-07.22.00:297][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.12-07.22.00:316][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.12-07.22.00:326][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.08.12-07.22.00:327][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../../NewGarden/GardenProject/AppJam/AppJam/Intermediate/Shaders/WorkingDirectory/2720/).
-[2017.08.12-07.22.00:328][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/E99CA06E432E3ADBD377F0AE98BC799D/'.
-[2017.08.12-07.22.00:328][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.12-07.22.04:720][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.12-07.22.04:777][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.12-07.22.04:833][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.12-07.22.04:880][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.12-07.22.04:880][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.12-07.22.05:754][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.12-07.22.05:964][  0]LogDerivedDataCache: Loaded boot cache 0.21s 50MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.08.12-07.22.05:964][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.08.12-07.22.05:964][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../NewGarden/GardenProject/AppJam/AppJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.12-07.22.05:964][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.12-07.22.05:964][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../NewGarden/GardenProject/AppJam/AppJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.12-07.22.05:964][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.12-07.22.06:022][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.12-07.22.06:035][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.12-07.22.12:099][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
-[2017.08.12-07.22.12:108][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.008324 seconds
-[2017.08.12-07.22.12:136][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.12-07.22.12:139][  0]LogContentStreaming: Texture pool size is 1000.00 MB
-[2017.08.12-07.22.12:486][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.12-07.22.12:578][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.12-07.22.12:661][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.12-07.22.12:661][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.12-07.22.12:661][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.12-07.22.13:123][  0]LogMaterial: Missing cached shader map for material CineMat, compiling. 
-[2017.08.12-07.22.13:632][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
-[2017.08.12-07.22.13:730][  0]LogMaterial: Missing cached shader map for material M_SimpleOpaque, compiling. 
-[2017.08.12-07.22.13:791][  0]LogMaterial: Missing cached shader map for material M_SimpleTranslucent, compiling. 
-[2017.08.12-07.22.14:600][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
-[2017.08.12-07.22.15:175][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
-[2017.08.12-07.22.15:515][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
-[2017.08.12-07.22.15:547][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
-[2017.08.12-07.22.15:679][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
-[2017.08.12-07.22.15:730][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
-[2017.08.12-07.22.16:184][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: appjam, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 917194376
-[2017.08.12-07.22.16:234][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
-[2017.08.12-07.22.16:823][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.12-07.22.18:946][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.12-07.22.19:033][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.12-07.22.19:033][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.12-07.22.20:560][  0]LogMoviePlayer: Initializing movie player
-[2017.08.12-07.22.20:698][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.08.12-07.22.20:786][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../../NewGarden/GardenProject/AppJam/AppJam/Content/Movies/Default_Startup.mp4
-[2017.08.12-07.22.21:052][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
-[2017.08.12-07.22.21:075][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
-[2017.08.12-07.22.21:271][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.12-07.22.21:343][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.12-07.22.21:680][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.08.12-07.22.21:680][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.08.12-07.22.21:812][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.08.12-07.22.23:626][  0]LogUObjectArray: 33496 objects as part of root set at end of initial load.
-[2017.08.12-07.22.23:626][  0]LogUObjectAllocator: 7417784 out of 0 bytes used by permanent object pool.
-[2017.08.12-07.22.23:626][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.12-07.22.24:177][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
-[2017.08.12-07.22.24:235][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
-[2017.08.12-07.22.24:268][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
-[2017.08.12-07.22.24:308][  0]LogEngine: Initializing Engine...
-[2017.08.12-07.22.24:310][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.12-07.22.24:331][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
-[2017.08.12-07.22.24:610][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
-[2017.08.12-07.22.25:969][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
-[2017.08.12-07.22.26:126][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
-[2017.08.12-07.22.27:560][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
-[2017.08.12-07.22.28:945][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
-[2017.08.12-07.22.29:071][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
-[2017.08.12-07.22.29:275][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
-[2017.08.12-07.22.29:320][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
-[2017.08.12-07.22.29:344][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
-[2017.08.12-07.22.29:368][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
-[2017.08.12-07.22.29:391][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
-[2017.08.12-07.22.29:414][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
-[2017.08.12-07.22.29:427][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
-[2017.08.12-07.22.29:460][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
-[2017.08.12-07.22.29:671][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
-[2017.08.12-07.22.29:687][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
-[2017.08.12-07.22.29:762][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.12-07.22.29:809][  0]LogInit: FAudioDevice initialized.
-[2017.08.12-07.22.29:849][  0]LogInit: Texture streaming: Enabled
-[2017.08.12-07.22.29:854][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
-[2017.08.12-07.22.29:863][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_ES2, Default Material will be used in game.
-[2017.08.12-07.22.29:863][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
-[2017.08.12-07.22.29:869][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
-[2017.08.12-07.22.29:897][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.12-07.22.29:903][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
-[2017.08.12-07.22.29:919][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
-[2017.08.12-07.22.29:935][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
-[2017.08.12-07.22.29:955][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
-[2017.08.12-07.22.29:970][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
-[2017.08.12-07.22.29:984][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
-[2017.08.12-07.22.29:999][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
-[2017.08.12-07.22.30:013][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
-[2017.08.12-07.22.30:028][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
-[2017.08.12-07.22.30:042][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
-[2017.08.12-07.22.30:056][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
-[2017.08.12-07.22.30:070][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
-[2017.08.12-07.22.30:071][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_ES2, Default Material will be used in game.
-[2017.08.12-07.22.30:071][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
-[2017.08.12-07.22.30:075][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
-[2017.08.12-07.22.30:089][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
-[2017.08.12-07.22.30:103][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
-[2017.08.12-07.22.30:127][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
-[2017.08.12-07.22.30:145][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
-[2017.08.12-07.22.30:162][  0]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
-[2017.08.12-07.22.30:177][  0]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
-[2017.08.12-07.22.30:963][  0]LogInit:Display: Game Engine Initialized.
-[2017.08.12-07.22.31:335][  0]LogInit:Display: Starting Game.
-[2017.08.12-07.22.31:335][  0]LogNet: Browse: /Temp/Autosaves/Game/SideScrollerBP/Maps/UEDPCSideScrollerExampleMap?Name=Player
-[2017.08.12-07.22.31:351][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/SideScrollerBP/Maps/UEDPCSideScrollerExampleMap?Name=Player
-[2017.08.12-07.22.31:600][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.12-07.22.31:600][  0]LogMemory: Process Physical Memory: 1190.55 MB used, 1208.72 MB peak
-[2017.08.12-07.22.31:600][  0]LogMemory: Process Virtual Memory: 1253.71 MB used, 1253.73 MB peak
-[2017.08.12-07.22.31:600][  0]LogMemory: Physical Memory: 6826.90 MB used,  1228.76 MB free, 8055.66 MB total
-[2017.08.12-07.22.31:600][  0]LogMemory: Virtual Memory: 1896.33 MB used,  1228.76 MB free, 134217728.00 MB total
-[2017.08.12-07.22.31:600][  0]LogMemory: 
-[2017.08.12-07.22.31:600][  0]Allocator Stats for TBB: (not implemented)
-[2017.08.12-07.22.32:661][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2017.08.12-07.22.32:793][  0]LogMaterial: Missing cached shader map for material AntiAliasedTextMaterialTranslucent, compiling. 
-[2017.08.12-07.22.32:924][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
-[2017.08.12-07.22.33:108][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2017.08.12-07.22.33:363][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2017.08.12-07.22.33:962][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2017.08.12-07.22.33:972][  0]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2017.08.12-07.22.34:168][  0]LogWorld: Bringing World /Temp/Autosaves/Game/SideScrollerBP/Maps/UEDPCSideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.08.12-16.22.34
-[2017.08.12-07.22.34:170][  0]LogWorld: Bringing up level for play took: 0.013751
-[2017.08.12-07.22.34:350][  0]LogLoad: Took 2.999290 seconds to LoadMap(/Temp/Autosaves/Game/SideScrollerBP/Maps/UEDPCSideScrollerExampleMap)
-[2017.08.12-07.22.34:968][  0]LogLoad: (Engine Initialization) Total time: 41.45 seconds
-[2017.08.12-07.22.34:968][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.54 seconds
-[2017.08.12-07.22.34:968][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.08.12-07.22.34:968][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.08.12-07.22.35:038][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.08.12-07.22.35:044][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.08.12-07.22.35:048][  0]LogOcInput: OculusInput pre-init called
-[2017.08.12-07.22.35:048][  0]LogEngine: All Windows Closed
-[2017.08.12-07.22.35:048][  0]LogWindows: FPlatformMisc::RequestExit(0)
-[2017.08.12-07.22.35:069][  1]LogMoviePlayer: Shutting down movie player
-[2017.08.12-07.22.35:357][  1]LogExit: Preparing to exit.
-[2017.08.12-07.22.37:028][  1]LogExit: Game engine shut down
-[2017.08.12-07.22.38:780][  1]LogObj: Freed 0b from 0 cluster array pools.
-[2017.08.12-07.22.38:780][  1]LogExit: Object subsystem successfully closed.
-[2017.08.12-07.22.38:957][  1]LogD3D11RHI: Shutdown
-[2017.08.12-07.22.38:962][  1]LogD3D11RHI: CleanupD3DDevice
-[2017.08.12-07.22.39:082][  1]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.08.12-07.22.39:567][  1]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (125)
-[2017.08.12-07.22.39:592][  1]LogModuleManager: Shutting down and abandoning module SequenceRecorder (124)
-[2017.08.12-07.22.39:602][  1]LogModuleManager: Shutting down and abandoning module AutomationController (123)
-[2017.08.12-07.22.39:621][  1]LogModuleManager: Shutting down and abandoning module AutomationWorker (122)
-[2017.08.12-07.22.39:631][  1]LogModuleManager: Shutting down and abandoning module GameplayDebugger (121)
-[2017.08.12-07.22.39:646][  1]LogModuleManager: Shutting down and abandoning module AITestSuite (120)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module AIModule (119)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (118)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (117)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module Media (116)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (115)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module CharacterAI (114)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module SessionServices (113)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (112)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (111)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module GeometryCache (110)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module Niagara (109)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (108)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module PortalServices (107)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module PortalRpc (106)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module MessagingRpc (105)
-[2017.08.12-07.22.39:661][  1]LogModuleManager: Shutting down and abandoning module ProfilerService (104)
-[2017.08.12-07.22.39:706][  1]LogModuleManager: Shutting down and abandoning module TaskGraph (103)
-[2017.08.12-07.22.39:743][  1]LogModuleManager: Shutting down and abandoning module SlateRemote (102)
-[2017.08.12-07.22.39:743][  1]LogModuleManager: Shutting down and abandoning module SteamVRController (101)
-[2017.08.12-07.22.39:743][  1]LogModuleManager: Shutting down and abandoning module SteamVR (100)
-[2017.08.12-07.22.39:743][  1]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (99)
-[2017.08.12-07.22.39:758][  1]LogModuleManager: Shutting down and abandoning module OculusLibrary (98)
-[2017.08.12-07.22.39:758][  1]LogModuleManager: Shutting down and abandoning module OculusInput (97)
-[2017.08.12-07.22.39:758][  1]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (96)
-[2017.08.12-07.22.39:758][  1]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (95)
-[2017.08.12-07.22.39:758][  1]LogModuleManager: Shutting down and abandoning module CableComponent (94)
-[2017.08.12-07.22.39:758][  1]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (93)
-[2017.08.12-07.22.39:759][  1]LogModuleManager: Shutting down and abandoning module HTML5Networking (91)
-[2017.08.12-07.22.39:759][  1]LogModuleManager: Shutting down and abandoning module DesktopPlatform (90)
-[2017.08.12-07.22.39:759][  1]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
-[2017.08.12-07.22.39:759][  1]LogModuleManager: Shutting down and abandoning module HotReload (88)
-[2017.08.12-07.22.39:759][  1]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (87)
-[2017.08.12-07.22.39:759][  1]LogModuleManager: Shutting down and abandoning module UObjectPlugin (86)
-[2017.08.12-07.22.39:759][  1]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (85)
-[2017.08.12-07.22.39:787][  1]LogModuleManager: Shutting down and abandoning module SourceControl (84)
-[2017.08.12-07.22.39:804][  1]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (83)
-[2017.08.12-07.22.39:824][  1]LogModuleManager: Shutting down and abandoning module UdpMessaging (82)
-[2017.08.12-07.22.39:924][  1]LogModuleManager: Shutting down and abandoning module TcpMessaging (81)
-[2017.08.12-07.22.40:043][  1]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (80)
-[2017.08.12-07.22.40:043][  1]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2017.08.12-07.22.40:059][  1]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2017.08.12-07.22.40:059][  1]LogModuleManager: Shutting down and abandoning module WmfMedia (77)
-[2017.08.12-07.22.40:076][  1]LogModuleManager: Shutting down and abandoning module MediaAssets (76)
-[2017.08.12-07.22.40:085][  1]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (75)
-[2017.08.12-07.22.40:089][  1]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (74)
-[2017.08.12-07.22.40:096][  1]LogModuleManager: Shutting down and abandoning module VREditor (73)
-[2017.08.12-07.22.40:096][  1]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (72)
-[2017.08.12-07.22.40:096][  1]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (71)
-[2017.08.12-07.22.40:132][  1]LogModuleManager: Shutting down and abandoning module FunctionalTesting (70)
-[2017.08.12-07.22.40:135][  1]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (69)
-[2017.08.12-07.22.40:151][  1]LogModuleManager: Shutting down and abandoning module Sequencer (68)
-[2017.08.12-07.22.40:199][  1]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (67)
-[2017.08.12-07.22.40:199][  1]LogModuleManager: Shutting down and abandoning module MessageLog (66)
-[2017.08.12-07.22.40:199][  1]LogModuleManager: Shutting down and abandoning module AssetTools (65)
-[2017.08.12-07.22.40:242][  1]LogModuleManager: Shutting down and abandoning module UMGEditor (64)
-[2017.08.12-07.22.40:289][  1]LogModuleManager: Shutting down and abandoning module UMG (63)
-[2017.08.12-07.22.40:293][  1]LogModuleManager: Shutting down and abandoning module SlateReflector (62)
-[2017.08.12-07.22.40:338][  1]LogModuleManager: Shutting down and abandoning module Slate (61)
-[2017.08.12-07.22.40:338][  1]LogModuleManager: Shutting down and abandoning module EditorStyle (60)
-[2017.08.12-07.22.40:339][  1]LogModuleManager: Shutting down and abandoning module Messaging (59)
-[2017.08.12-07.22.40:339][  1]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (58)
-[2017.08.12-07.22.40:339][  1]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (57)
-[2017.08.12-07.22.40:339][  1]LogModuleManager: Shutting down and abandoning module XAudio2 (56)
-[2017.08.12-07.22.40:339][  1]LogModuleManager: Shutting down and abandoning module Networking (54)
-[2017.08.12-07.22.40:339][  1]LogModuleManager: Shutting down and abandoning module Core (53)
-[2017.08.12-07.22.40:339][  1]LogModuleManager: Shutting down and abandoning module KismetCompiler (52)
-[2017.08.12-07.22.40:339][  1]LogModuleManager: Shutting down and abandoning module PhysXFormats (51)
-[2017.08.12-07.22.40:339][  1]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (50)
-[2017.08.12-07.22.40:351][  1]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (49)
-[2017.08.12-07.22.40:357][  1]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (48)
-[2017.08.12-07.22.40:357][  1]LogModuleManager: Shutting down and abandoning module PropertyEditor (47)
-[2017.08.12-07.22.40:357][  1]LogModuleManager: Shutting down and abandoning module MeshUtilities (46)
-[2017.08.12-07.22.40:387][  1]LogModuleManager: Shutting down and abandoning module AssetRegistry (45)
-[2017.08.12-07.22.40:394][  1]LogModuleManager: Shutting down and abandoning module DerivedDataCache (44)
-[2017.08.12-07.22.40:559][  1]LogDerivedDataCache: Shutdown
-[2017.08.12-07.22.40:559][  1]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (43)
-[2017.08.12-07.22.40:559][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
-[2017.08.12-07.22.40:559][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
-[2017.08.12-07.22.40:559][  1]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
-[2017.08.12-07.22.40:559][  1]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
-[2017.08.12-07.22.40:559][  1]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
-[2017.08.12-07.22.40:559][  1]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
-[2017.08.12-07.22.40:559][  1]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (36)
-[2017.08.12-07.22.40:590][  1]LogModuleManager: Shutting down and abandoning module ImageWrapper (35)
-[2017.08.12-07.22.40:590][  1]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (34)
-[2017.08.12-07.22.40:590][  1]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (33)
-[2017.08.12-07.22.40:590][  1]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (32)
-[2017.08.12-07.22.40:608][  1]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (31)
-[2017.08.12-07.22.40:608][  1]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (30)
-[2017.08.12-07.22.40:608][  1]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
-[2017.08.12-07.22.40:608][  1]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
-[2017.08.12-07.22.40:608][  1]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
-[2017.08.12-07.22.40:608][  1]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
-[2017.08.12-07.22.40:609][  1]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2017.08.12-07.22.40:609][  1]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2017.08.12-07.22.40:609][  1]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2017.08.12-07.22.40:609][  1]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2017.08.12-07.22.40:631][  1]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
-[2017.08.12-07.22.40:631][  1]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
-[2017.08.12-07.22.40:631][  1]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2017.08.12-07.22.40:631][  1]LogOnline:Display: Unloading online subsystem: NULL
-[2017.08.12-07.22.40:644][  1]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2017.08.12-07.22.40:661][  1]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.08.12-07.22.40:661][  1]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.08.12-07.22.40:676][  1]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.08.12-07.22.40:692][  1]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.08.12-07.22.40:692][  1]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.08.12-07.22.40:692][  1]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.08.12-07.22.40:717][  1]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.08.12-07.22.40:736][  1]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.08.12-07.22.40:736][  1]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.08.12-07.22.40:745][  1]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.08.12-07.22.40:753][  1]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.08.12-07.22.40:753][  1]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.08.12-07.22.40:753][  1]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.08.12-07.22.40:772][  1]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.08.12-07.22.40:772][  1]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.08.12-07.22.40:772][  1]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.08.12-07.22.40:787][  1]LogExit: Exiting.
-[2017.08.12-07.22.40:804][  1]Log file closed, 08/12/17 16:22:40
+[2017.08.12-14.51.47:108][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.12-14.51.47:155][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.08.12-14.51.47:155][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.12-14.51.47:165][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.08.12-14.51.47:165][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.12-14.51.47:167][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.12-14.51.47:167][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.12-14.51.47:167][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.12-14.51.47:173][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.12-14.51.47:173][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.08.12-14.51.47:173][  0]LogWindows: EnumDisplayDevices:
+[2017.08.12-14.51.47:174][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.08.12-14.51.47:174][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.12-14.51.47:175][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.12-14.51.47:175][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.12-14.51.47:175][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.08.12-14.51.47:175][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.12-14.51.47:175][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.12-14.51.47:175][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.12-14.51.47:192][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.12-14.51.47:202][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.12-14.51.47:203][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../../NewGarden/GardenProject/AppJam/AppJam/Intermediate/Shaders/WorkingDirectory/472/).
+[2017.08.12-14.51.47:203][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/28DD3F454F877840A9FF858F941BB2CB/'.
+[2017.08.12-14.51.47:204][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.12-14.51.48:469][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.12-14.51.48:525][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.12-14.51.48:584][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.12-14.51.48:627][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.12-14.51.48:627][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.12-14.51.48:972][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.12-14.51.49:040][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.08.12-14.51.49:040][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.08.12-14.51.49:041][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../NewGarden/GardenProject/AppJam/AppJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.12-14.51.49:041][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.12-14.51.49:041][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../NewGarden/GardenProject/AppJam/AppJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.12-14.51.49:041][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.12-14.51.49:068][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.12-14.51.49:080][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.12-14.51.49:319][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.08.12-14.51.49:329][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.009353 seconds
+[2017.08.12-14.51.49:349][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.12-14.51.49:351][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.08.12-14.51.49:584][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.12-14.51.49:624][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.12-14.51.49:667][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.12-14.51.49:667][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.12-14.51.49:667][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.12-14.51.50:025][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2017.08.12-14.51.50:314][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2017.08.12-14.51.50:352][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2017.08.12-14.51.50:486][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2017.08.12-14.51.50:517][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2017.08.12-14.51.50:700][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: appjam, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 917194376
+[2017.08.12-14.51.50:721][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.08.12-14.51.51:345][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.12-14.51.52:782][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.12-14.51.52:783][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.12-14.51.52:784][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.12-14.51.53:059][  0]LogMoviePlayer: Initializing movie player
+[2017.08.12-14.51.53:146][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.12-14.51.53:210][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../../NewGarden/GardenProject/AppJam/AppJam/Content/Movies/Default_Startup.mp4
+[2017.08.12-14.51.53:386][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2017.08.12-14.51.53:412][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2017.08.12-14.51.53:596][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.12-14.51.53:667][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.12-14.51.53:952][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.12-14.51.53:952][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.12-14.51.54:054][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.12-14.51.55:705][  0]LogUObjectArray: 33496 objects as part of root set at end of initial load.
+[2017.08.12-14.51.55:705][  0]LogUObjectAllocator: 7417784 out of 0 bytes used by permanent object pool.
+[2017.08.12-14.51.55:705][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.12-14.51.55:897][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2017.08.12-14.51.55:930][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2017.08.12-14.51.55:962][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2017.08.12-14.51.56:003][  0]LogEngine: Initializing Engine...
+[2017.08.12-14.51.56:005][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.12-14.51.56:027][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2017.08.12-14.51.56:228][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2017.08.12-14.51.57:809][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2017.08.12-14.51.57:968][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2017.08.12-14.51.59:617][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2017.08.12-14.52.01:257][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2017.08.12-14.52.01:442][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2017.08.12-14.52.01:687][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
