@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-D9F9945D43ED33008232E985C023C8ED_0000</CrashGUID>
+		<ProcessId>12956</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>7974</SecondsSinceStart>
+		<GameName>UE4-AppJam</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.14.3-3249277+++UE4+Release-4.14</EngineVersion>
+		<CommandLine>&quot;D:\NewGarden\GardenProject\AppJam\AppJam\AppJam.uproject&quot;</CommandLine>
+		<LanguageLCID>1042</LanguageLCID>
+		<AppDefaultLocale>ko_KR</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.14-CL-3249277</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>JWOH</UserName>
+		<BaseDir>D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>D:/Study/UnrealEngine/Engine/UE_4.14/</RootDir>
+		<MachineId>2B4B9104449FF9352E6E79A22565F81D</MachineId>
+		<EpicAccountId>7c7d6b3990ad4a62a4d878ae6b0c72dd</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<ErrorMessage>Ensure condition failed: false [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1492] &nl;Could not remove actor /Engine/Transient.World_7:PersistentLevel.REINST_Sun_C_18 from world (check level is /Engine/Transient.World_7:PersistentLevel)&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 530</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>8446967808</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>2242510848</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140730169356288</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1520267264</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1776615424</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>5480869888</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>5924597760</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636381560064370000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
