@@ -1,0 +1,936 @@
+﻿Log file open, 08/12/17 19:10:08
+LogInit:Display: Running engine for game: AppJam
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2136040037) SRandInit(2136040038).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 3.896989
+LogPluginManager: Loaded Plugin Paper2D, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.12-10.10.09:807][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.12-10.10.09:807][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.12-10.10.09:949][  0]LogInit: Computer: DESKTOP-6JOGDQL
+[2017.08.12-10.10.09:949][  0]LogInit: User: JWOH
+[2017.08.12-10.10.09:949][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.08.12-10.10.09:949][  0]LogInit: High frequency timer resolution =2.531255 MHz
+[2017.08.12-10.10.09:949][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.12-10.10.09:949][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.12-10.10.09:949][  0]LogMemory: Process Physical Memory: 266.18 MB used, 266.18 MB peak
+[2017.08.12-10.10.09:949][  0]LogMemory: Process Virtual Memory: 262.46 MB used, 262.46 MB peak
+[2017.08.12-10.10.09:949][  0]LogMemory: Physical Memory: 3997.70 MB used,  4057.96 MB free, 8055.66 MB total
+[2017.08.12-10.10.09:949][  0]LogMemory: Virtual Memory: 676.73 MB used,  4057.96 MB free, 134217728.00 MB total
+[2017.08.12-10.10.11:802][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.08.12-10.10.11:979][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.08.12-10.10.11:979][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.08.12-10.10.11:980][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.08.12-10.10.11:980][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (D:/Study/UnrealEngine/Engine/UE_4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.08.12-10.10.16:245][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.12-10.10.16:507][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.08.12-10.10.16:508][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.12-10.10.16:529][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.08.12-10.10.16:529][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.12-10.10.16:531][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.12-10.10.16:531][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.12-10.10.16:531][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.12-10.10.16:537][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.12-10.10.16:537][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.08.12-10.10.16:537][  0]LogWindows: EnumDisplayDevices:
+[2017.08.12-10.10.16:537][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.08.12-10.10.16:538][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.12-10.10.16:538][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.12-10.10.16:539][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.12-10.10.16:539][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.08.12-10.10.16:539][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.12-10.10.16:539][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.12-10.10.16:539][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.12-10.10.16:554][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.12-10.10.16:950][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.12-10.10.17:087][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../../NewGarden/GardenProject/AppJam/AppJam/Intermediate/Shaders/WorkingDirectory/10940/).
+[2017.08.12-10.10.17:087][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/CFAE740A41A11410749D8E80B2791174/'.
+[2017.08.12-10.10.17:087][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.12-10.10.22:543][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.12-10.10.22:590][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.12-10.10.22:637][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.12-10.10.22:687][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.12-10.10.22:774][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.12-10.10.22:821][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.12-10.10.22:870][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.12-10.10.22:917][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.12-10.10.22:954][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.12-10.10.23:052][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.12-10.10.23:115][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.12-10.10.23:171][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.12-10.10.23:231][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.12-10.10.23:291][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.12-10.10.23:346][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.12-10.10.23:458][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.12-10.10.23:458][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.12-10.10.23:491][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.12-10.10.23:746][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.12-10.10.23:779][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.12-10.10.23:828][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.12-10.10.23:880][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.12-10.10.23:927][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.12-10.10.23:978][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.12-10.10.23:978][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.12-10.10.25:518][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.12-10.10.25:748][  0]LogDerivedDataCache: Loaded boot cache 0.23s 50MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.08.12-10.10.25:749][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.08.12-10.10.25:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../NewGarden/GardenProject/AppJam/AppJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.12-10.10.25:749][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.12-10.10.25:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../NewGarden/GardenProject/AppJam/AppJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.12-10.10.25:749][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.12-10.10.25:883][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.12-10.10.25:897][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.12-10.10.36:332][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.12-10.10.36:402][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.12-10.10.37:568][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.12-10.10.37:772][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.12-10.10.37:871][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.12-10.10.37:871][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.12-10.10.37:871][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.12-10.10.48:566][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: appjam, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 917194376
+[2017.08.12-10.10.48:843][  0]LogAssetRegistry: FAssetRegistry took 0.0298 seconds to start up
+[2017.08.12-10.10.49:324][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.325184 seconds
+[2017.08.12-10.10.49:373][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.08.12-10.10.49:373][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.08.12-10.10.49:373][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.12-10.10.49:534][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.12-10.10.55:072][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.12-10.10.55:167][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.12-10.10.55:167][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.12-10.11.06:650][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.12-10.11.06:734][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.12-10.11.08:226][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.12-10.11.09:311][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.12-10.11.09:454][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.12-10.11.09:571][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.12-10.11.09:645][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.12-10.11.12:643][  0]LogEngine: Initializing Engine...
+[2017.08.12-10.11.12:668][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.12-10.11.13:890][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.12-10.11.14:110][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-10.11.14:145][  0]LogInit: FAudioDevice initialized.
+[2017.08.12-10.11.14:195][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.08.12-10.11.14:207][  0]LogInit: Texture streaming: Enabled
+[2017.08.12-10.11.15:123][  0]LogInit: Transaction tracking system initialized
+[2017.08.12-10.11.20:621][  0]BlueprintLog: New page: 에디터 로드
+[2017.08.12-10.11.24:971][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.08.12-10.11.26:841][  0]LogConsoleResponse:Display: 
+[2017.08.12-10.11.35:658][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/AppJam/AppJam/Content/' took 0.26s
+[2017.08.12-10.11.35:658][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.12-10.11.35:735][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.12-10.11.51:466][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.12-10.11.51:928][  0]Cmd: MAP LOAD FILE="../../../../../../../NewGarden/GardenProject/AppJam/AppJam/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.12-10.11.52:506][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.12-10.11.54:344][  0]MapCheck: New page: 맵 체크
+[2017.08.12-10.11.54:344][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.12-10.12.21:380][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.08.12-10.12.24:458][  0]LogEditorServer: Finished looking for orphan Actors (0.010 secs)
+[2017.08.12-10.12.24:664][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.12-10.12.24:768][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 104.365ms.
+[2017.08.12-10.12.24:768][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 32.911
+[2017.08.12-10.12.28:080][  0]LogCollectionManager: Loaded 0 collections in 0.001163 seconds
+[2017.08.12-10.12.28:725][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/AppJam/AppJam/Saved/Collections/' took 0.01s
+[2017.08.12-10.12.28:725][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/AppJam/AppJam/Content/Developers/JWOH/Collections/' took 0.01s
+[2017.08.12-10.12.28:725][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/AppJam/AppJam/Content/Collections/' took 0.01s
+[2017.08.12-10.12.28:725][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.12-10.12.28:790][  0]LogContentBrowser: Native class hierarchy populated in 0.0351 seconds. Added 2190 classes and 428 folders.
+[2017.08.12-10.12.29:158][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.12-10.12.29:158][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.12-10.12.29:164][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 13 classes and 0 folders.
+[2017.08.12-10.12.29:268][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.12-10.12.31:534][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.12-10.12.31:747][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.12-10.12.35:787][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.12-10.12.36:766][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.12-10.12.37:118][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.12-10.12.37:119][  0]LogLoad: (Engine Initialization) Total time: 161.46 seconds
+[2017.08.12-10.12.37:119][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.71 seconds
+[2017.08.12-10.12.37:125][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.12-10.12.37:125][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.12-10.12.37:635][  0]LogOcInput: OculusInput pre-init called
+[2017.08.12-10.12.38:999][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.12-10.12.51:959][  0]LogRenderer: Reallocating scene render targets to support 1352x624 NumSamples 1 (Frame:2).
+[2017.08.12-10.12.59:730][  4]LogAssetRegistry: Asset discovery search completed in 130.9097 seconds
+[2017.08.12-10.13.00:021][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.12-10.13.00:021][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.190645 seconds (updated 0 objects)
+[2017.08.12-10.13.05:870][ 52]LogTemp: Repeting last play command: 시뮬레이트
+[2017.08.12-10.13.06:054][ 52]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.12-10.13.06:131][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-10.13.06:515][ 52]PIE: New page: SIE 세션: SideScrollerExampleMap (2017. 8. 13. 오전 4:13:06)
+[2017.08.12-10.13.06:522][ 52]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.08.12-10.13.06:839][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.318449s)
+[2017.08.12-10.13.06:841][ 52]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.08.12-10.13.06:904][ 52]LogPlayLevel: PIE: World Init took: (0.063712s)
+[2017.08.12-10.13.06:932][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.409783s)
+[2017.08.12-10.13.07:511][ 52]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-10.13.07:524][ 52]LogInit: FAudioDevice initialized.
+[2017.08.12-10.13.08:564][ 52]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.12-10.13.09:248][ 52]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2017.08.12-19.13.09
+[2017.08.12-10.13.09:825][ 52]LogWorld: Bringing up level for play took: 0.685549
+[2017.08.12-10.13.10:292][ 52]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.12-10.13.10:367][ 52]PIE: 정보 /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 에 대한 에디터에서 플레이 시작 시간: 5.263
+[2017.08.12-10.13.10:674][ 52]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.12-10.13.11:398][ 52]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.12:339][ 53]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:204][ 54]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:305][ 55]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:331][ 56]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:348][ 57]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:408][ 58]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:486][ 59]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:528][ 60]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:560][ 61]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:594][ 62]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:627][ 63]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:660][ 64]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:693][ 65]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:789][ 66]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:924][ 67]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:933][ 68]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.13:949][ 69]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:000][ 70]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:074][ 71]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:147][ 72]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:177][ 73]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:210][ 74]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:243][ 75]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:276][ 76]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:312][ 77]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:344][ 78]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:376][ 79]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:410][ 80]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:443][ 81]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:476][ 82]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:510][ 83]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:543][ 84]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:576][ 85]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:609][ 86]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:643][ 87]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:676][ 88]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:709][ 89]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:743][ 90]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:776][ 91]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:809][ 92]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:843][ 93]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:877][ 94]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:910][ 95]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:943][ 96]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.14:976][ 97]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:009][ 98]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:043][ 99]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:076][100]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:110][101]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:143][102]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:176][103]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:209][104]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:243][105]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:276][106]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:310][107]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:343][108]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:376][109]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:409][110]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:443][111]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:476][112]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:509][113]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:543][114]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:576][115]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:610][116]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:643][117]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:676][118]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:709][119]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:743][120]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:776][121]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:809][122]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:843][123]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:876][124]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:909][125]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:943][126]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.15:976][127]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:009][128]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:043][129]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:076][130]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:109][131]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:143][132]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:176][133]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:209][134]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:243][135]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:276][136]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:309][137]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:343][138]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:376][139]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:409][140]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:444][141]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:476][142]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:509][143]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:542][144]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:576][145]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:609][146]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:642][147]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:676][148]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:709][149]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:742][150]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:775][151]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:809][152]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:843][153]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:876][154]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:909][155]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:943][156]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.16:975][157]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:009][158]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:043][159]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:076][160]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:109][161]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:142][162]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:175][163]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:209][164]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:242][165]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:275][166]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:309][167]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:342][168]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:376][169]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:408][170]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:442][171]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:476][172]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:509][173]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:543][174]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:576][175]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:609][176]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:642][177]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:675][178]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:709][179]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:742][180]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:776][181]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:808][182]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:842][183]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:875][184]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:908][185]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:942][186]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.17:975][187]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:008][188]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:042][189]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:076][190]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:109][191]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:142][192]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:175][193]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:208][194]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:242][195]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:276][196]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:309][197]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:341][198]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:375][199]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:409][200]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:442][201]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:475][202]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:509][203]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:585][204]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:602][205]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:618][206]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:642][207]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:675][208]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:708][209]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:742][210]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:775][211]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:808][212]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:842][213]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:875][214]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:909][215]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:941][216]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.18:975][217]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:009][218]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:042][219]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:075][220]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:108][221]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:142][222]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:175][223]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:208][224]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:242][225]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:275][226]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:308][227]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:341][228]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:375][229]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:408][230]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:442][231]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:475][232]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:508][233]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:541][234]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:574][235]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:609][236]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:642][237]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:674][238]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:708][239]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:741][240]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:775][241]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:808][242]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:841][243]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:875][244]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:908][245]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:941][246]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.19:975][247]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:007][248]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:041][249]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:075][250]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:108][251]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:142][252]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:174][253]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:208][254]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:241][255]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:274][256]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:308][257]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:341][258]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:374][259]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:408][260]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:441][261]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:474][262]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:508][263]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:541][264]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:575][265]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:608][266]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:641][267]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:674][268]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:708][269]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:741][270]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:774][271]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:807][272]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:841][273]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:874][274]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:907][275]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:941][276]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.20:974][277]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:007][278]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:041][279]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:074][280]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:108][281]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:141][282]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:174][283]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:207][284]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:240][285]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:274][286]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:308][287]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:341][288]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:374][289]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:407][290]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:439][291]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:474][292]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:507][293]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:540][294]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:574][295]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:607][296]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:641][297]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:674][298]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:707][299]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:740][300]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:773][301]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:807][302]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:840][303]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:874][304]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.21:950][305]Cmd: SELECT NONE
+[2017.08.12-10.13.22:671][305]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.22:678][306]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.22:694][307]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.22:711][308]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.22:765][309]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.22:839][310]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.22:874][311]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.22:907][312]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.22:940][313]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.22:973][314]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:007][315]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:040][316]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:074][317]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:107][318]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:140][319]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:174][320]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:207][321]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:240][322]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:274][323]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:307][324]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:340][325]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:373][326]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:407][327]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:440][328]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:474][329]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:507][330]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:540][331]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:573][332]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:606][333]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:640][334]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:673][335]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:706][336]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:740][337]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:773][338]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:806][339]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:840][340]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:873][341]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:906][342]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:940][343]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.23:973][344]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:007][345]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:040][346]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:073][347]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:107][348]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:141][349]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:246][350]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:254][351]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:311][352]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:343][353]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:349][354]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:366][355]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:444][356]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:477][357]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:510][358]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:545][359]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:577][360]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:612][361]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:644][362]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:677][363]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:709][364]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:716][365]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:777][366]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:810][367]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:844][368]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:877][369]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:911][370]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:943][371]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.24:977][372]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:010][373]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:044][374]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:078][375]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:112][376]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:144][377]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:151][378]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:186][379]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:204][380]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:219][381]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:240][382]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:274][383]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:349][384]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:363][385]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:379][386]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:477][387]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:510][388]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:544][389]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:577][390]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:587][391]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:603][392]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:623][393]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:677][394]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:706][395]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:739][396]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:774][397]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:839][398]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:874][399]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.25:940][400]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.26:142][403]LogBlueprintUserMessages: [Star_2] Hello
+[2017.08.12-10.13.26:155][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.12-10.13.26:967][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.12-10.21.41:782][988]Cmd: QUIT_EDITOR
+[2017.08.12-10.21.43:982][988]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.12-10.21.44:174][988]LogExit: Preparing to exit.
+[2017.08.12-10.21.46:639][988]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/AppJam/AppJam/Content/' was aborted.
+[2017.08.12-10.21.47:633][988]LogExit: Editor shut down
+[2017.08.12-10.21.47:635][988]LogExit: Transaction tracking system shut down
+[2017.08.12-10.21.55:958][988]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.12-10.21.55:959][988]LogExit: Object subsystem successfully closed.
+[2017.08.12-10.21.57:341][988]LogD3D11RHI: Shutdown
+[2017.08.12-10.21.57:364][988]LogD3D11RHI: CleanupD3DDevice
+[2017.08.12-10.21.57:868][988]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.12-10.22.01:206][988]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.12-10.22.01:206][988]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0B1B2BB5-446A-3911-59C6-979C7058CA3B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=2b4b9104449ff9352e6e79a22565f81d%7C7c7d6b3990ad4a62a4d878ae6b0c72dd%7Cdff5993a-bb95-44de-bad5-df2ac76192ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.12-10.22.01:430][988]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
+[2017.08.12-10.22.01:430][988]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.08.12-10.22.01:469][988]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.08.12-10.22.01:511][988]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.08.12-10.22.01:547][988]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.08.12-10.22.01:547][988]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.08.12-10.22.01:837][988]LogDirectoryWatcher: A directory notification for 'D:/Study/UnrealEngine/Engine/UE_4.14/FeaturePacks/' was aborted.
+[2017.08.12-10.22.01:847][988]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.08.12-10.22.01:847][988]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.08.12-10.22.01:847][988]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.08.12-10.22.01:872][988]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/AppJam/AppJam/Content/Collections/' was aborted.
+[2017.08.12-10.22.01:873][988]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/AppJam/AppJam/Content/Developers/JWOH/Collections/' was aborted.
+[2017.08.12-10.22.01:873][988]LogDirectoryWatcher: A directory notification for 'D:/NewGarden/GardenProject/AppJam/AppJam/Saved/Collections/' was aborted.
+[2017.08.12-10.22.01:873][988]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.08.12-10.22.01:973][988]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.08.12-10.22.02:013][988]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.08.12-10.22.02:139][988]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.08.12-10.22.02:139][988]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.08.12-10.22.02:139][988]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.08.12-10.22.02:139][988]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.08.12-10.22.02:139][988]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.08.12-10.22.02:178][988]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.08.12-10.22.02:222][988]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.08.12-10.22.02:262][988]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.08.12-10.22.02:305][988]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.08.12-10.22.02:378][988]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.08.12-10.22.02:442][988]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.08.12-10.22.02:656][988]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.08.12-10.22.02:657][988]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.08.12-10.22.02:657][988]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.08.12-10.22.02:657][988]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.08.12-10.22.02:657][988]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.08.12-10.22.02:657][988]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.08.12-10.22.02:657][988]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.08.12-10.22.02:657][988]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.08.12-10.22.02:657][988]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.08.12-10.22.02:769][988]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.08.12-10.22.02:769][988]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.08.12-10.22.02:769][988]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.08.12-10.22.02:769][988]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.08.12-10.22.02:769][988]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.08.12-10.22.02:769][988]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.08.12-10.22.02:976][988]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.08.12-10.22.03:077][988]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.08.12-10.22.03:102][988]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.08.12-10.22.03:102][988]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.08.12-10.22.03:163][988]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.08.12-10.22.03:163][988]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.08.12-10.22.03:265][988]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.08.12-10.22.03:282][988]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.08.12-10.22.03:282][988]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.08.12-10.22.03:282][988]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.08.12-10.22.03:291][988]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.08.12-10.22.03:387][988]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.08.12-10.22.03:448][988]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.08.12-10.22.03:473][988]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.08.12-10.22.03:531][988]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.08.12-10.22.03:531][988]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.08.12-10.22.03:577][988]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.08.12-10.22.03:620][988]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.08.12-10.22.03:633][988]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.08.12-10.22.03:728][988]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.08.12-10.22.03:774][988]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.08.12-10.22.03:774][988]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.08.12-10.22.03:815][988]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.08.12-10.22.03:822][988]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.08.12-10.22.03:822][988]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.08.12-10.22.03:823][988]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.08.12-10.22.03:823][988]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.08.12-10.22.03:965][988]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.08.12-10.22.04:009][988]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.08.12-10.22.04:070][988]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.08.12-10.22.04:123][988]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.08.12-10.22.04:123][988]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.08.12-10.22.04:180][988]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.08.12-10.22.04:204][988]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.08.12-10.22.04:244][988]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.08.12-10.22.04:430][988]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.08.12-10.22.04:430][988]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.08.12-10.22.04:476][988]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.08.12-10.22.04:544][988]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.08.12-10.22.04:544][988]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.08.12-10.22.04:675][988]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.08.12-10.22.04:767][988]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.08.12-10.22.05:113][988]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.08.12-10.22.05:174][988]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.08.12-10.22.05:185][988]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.08.12-10.22.05:257][988]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.08.12-10.22.05:368][988]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.08.12-10.22.05:420][988]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.08.12-10.22.05:480][988]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.08.12-10.22.05:480][988]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.08.12-10.22.05:480][988]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.08.12-10.22.05:480][988]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.08.12-10.22.05:480][988]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.08.12-10.22.05:480][988]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.08.12-10.22.05:481][988]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.08.12-10.22.05:481][988]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.08.12-10.22.05:481][988]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.08.12-10.22.05:507][988]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.08.12-10.22.05:507][988]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.08.12-10.22.05:779][988]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.08.12-10.22.05:874][988]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.08.12-10.22.05:875][988]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.08.12-10.22.05:875][988]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.08.12-10.22.05:875][988]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.08.12-10.22.05:901][988]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.08.12-10.22.05:984][988]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.08.12-10.22.05:984][988]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.08.12-10.22.05:984][988]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.08.12-10.22.05:984][988]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.08.12-10.22.05:984][988]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.08.12-10.22.06:029][988]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.08.12-10.22.06:029][988]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.08.12-10.22.06:210][988]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.08.12-10.22.06:210][988]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.08.12-10.22.06:210][988]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.08.12-10.22.06:210][988]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.08.12-10.22.06:232][988]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.08.12-10.22.06:276][988]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.08.12-10.22.06:276][988]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.08.12-10.22.06:276][988]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.08.12-10.22.06:276][988]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.08.12-10.22.06:387][988]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.08.12-10.22.06:422][988]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.08.12-10.22.06:463][988]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.08.12-10.22.06:463][988]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.08.12-10.22.06:468][988]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.08.12-10.22.06:468][988]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.08.12-10.22.06:527][988]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.08.12-10.22.06:587][988]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.08.12-10.22.06:671][988]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.08.12-10.22.06:692][988]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.08.12-10.22.06:692][988]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.08.12-10.22.06:727][988]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.08.12-10.22.06:727][988]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.08.12-10.22.06:727][988]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.08.12-10.22.06:759][988]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.08.12-10.22.06:858][988]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.08.12-10.22.06:858][988]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.08.12-10.22.07:016][988]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.08.12-10.22.07:019][988]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.08.12-10.22.07:157][988]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.08.12-10.22.07:258][988]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.08.12-10.22.07:387][988]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.08.12-10.22.07:387][988]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.08.12-10.22.07:425][988]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.08.12-10.22.07:468][988]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.08.12-10.22.07:550][988]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.08.12-10.22.07:550][988]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.08.12-10.22.07:610][988]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.08.12-10.22.07:610][988]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.08.12-10.22.07:610][988]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.08.12-10.22.07:610][988]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.08.12-10.22.07:797][988]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.08.12-10.22.07:901][988]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.08.12-10.22.08:194][988]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.08.12-10.22.08:469][988]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.08.12-10.22.08:469][988]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.08.12-10.22.08:515][988]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.08.12-10.22.08:773][988]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.08.12-10.22.09:075][988]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.08.12-10.22.09:228][988]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.08.12-10.22.09:579][988]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.08.12-10.22.09:579][988]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.08.12-10.22.09:633][988]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.08.12-10.22.09:633][988]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.08.12-10.22.09:633][988]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.08.12-10.22.09:633][988]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.08.12-10.22.09:633][988]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.08.12-10.22.09:633][988]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.08.12-10.22.09:633][988]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.12-10.22.09:634][988]LogDirectoryWatcher: A directory notification for '../../../../../../../NewGarden/GardenProject/AppJam/AppJam/Content/' was aborted.
+[2017.08.12-10.22.09:635][988]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.12-10.22.09:639][988]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.08.12-10.22.10:187][988]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.08.12-10.22.10:187][988]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.08.12-10.22.10:227][988]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.08.12-10.22.10:290][988]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.08.12-10.22.10:331][988]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.08.12-10.22.10:596][988]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.08.12-10.22.10:596][988]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.08.12-10.22.11:347][988]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.08.12-10.22.11:420][988]LogDerivedDataCache: Shutdown
+[2017.08.12-10.22.11:422][988]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.08.12-10.22.11:458][988]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.08.12-10.22.11:501][988]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.08.12-10.22.11:572][988]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.08.12-10.22.11:604][988]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.08.12-10.22.11:604][988]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.08.12-10.22.11:619][988]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.08.12-10.22.11:663][988]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.08.12-10.22.11:732][988]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.08.12-10.22.11:732][988]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.08.12-10.22.11:732][988]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.08.12-10.22.11:732][988]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.08.12-10.22.11:758][988]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.08.12-10.22.11:803][988]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.08.12-10.22.11:803][988]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.08.12-10.22.11:803][988]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.08.12-10.22.11:818][988]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.08.12-10.22.11:870][988]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.08.12-10.22.11:919][988]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.08.12-10.22.11:920][988]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.08.12-10.22.11:920][988]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.08.12-10.22.11:920][988]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.08.12-10.22.11:920][988]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.08.12-10.22.11:920][988]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.08.12-10.22.11:920][988]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.08.12-10.22.11:920][988]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.08.12-10.22.11:920][988]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.08.12-10.22.11:968][988]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.08.12-10.22.11:968][988]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.08.12-10.22.11:968][988]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.08.12-10.22.11:968][988]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.08.12-10.22.11:968][988]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.08.12-10.22.11:982][988]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.08.12-10.22.12:027][988]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.08.12-10.22.12:062][988]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.08.12-10.22.12:062][988]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.08.12-10.22.12:062][988]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.08.12-10.22.12:062][988]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.08.12-10.22.12:062][988]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.08.12-10.22.12:062][988]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.08.12-10.22.12:062][988]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.08.12-10.22.12:062][988]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.08.12-10.22.12:062][988]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.08.12-10.22.12:157][988]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.08.12-10.22.12:157][988]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.08.12-10.22.12:157][988]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.08.12-10.22.12:157][988]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.12-10.22.12:291][988]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.08.12-10.22.12:321][988]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.08.12-10.22.12:321][988]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.08.12-10.22.12:429][988]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.08.12-10.22.12:496][988]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.08.12-10.22.12:496][988]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.08.12-10.22.12:496][988]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.08.12-10.22.12:665][988]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.08.12-10.22.12:703][988]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.08.12-10.22.12:703][988]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.08.12-10.22.12:748][988]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.08.12-10.22.12:757][988]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.08.12-10.22.12:757][988]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.08.12-10.22.12:757][988]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.08.12-10.22.12:765][988]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.08.12-10.22.12:808][988]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.08.12-10.22.12:845][988]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.08.12-10.22.12:995][988]LogExit: Exiting.
+[2017.08.12-10.22.13:029][988]Log file closed, 08/12/17 19:22:13
